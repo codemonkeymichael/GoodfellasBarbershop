@@ -5,11 +5,18 @@
   color: #0c233c;
   background-color: #010913;
 }
+body .stuff {
+  background-color: red;
+}
 body .container {
   background-color: white;
 }
 body table {
   font-size: 16px;
+}
+body table tr td div {
+  color: red;
+  font-weight: bold;
 }
 body h1 {
   font-family: "Arial Black", Arial, Helvetica, sans-serif;

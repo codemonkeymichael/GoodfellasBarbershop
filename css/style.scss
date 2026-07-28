@@ -5,12 +5,24 @@ body {
     color: #0c233c;
     background-color: #010913;
 
+    .stuff {
+        background-color: red;
+    }
+
     .container {
         background-color: white;
     }
 
     table {
         font-size: 16px;
+        tr{
+            td{
+                div{
+                    color: red;
+                    font-weight: bold;
+                }
+            }
+        }
     }
 
     h1 {
