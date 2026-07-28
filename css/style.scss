@@ -4,108 +4,132 @@ body {
     font-size: 16px;
     color: #0c233c;
     background-color: #010913;
-}
-body .container {
-    background-color: white;
-}
-table {
-    font-size: 16px;
-}
-h1 {
-    font-family: "Arial Black", Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    width: 100%;
-    background-color: #0c233c;
-    padding: 5px 0 5px 9%;
-    border-radius: 5px 35px 3px 3px;
-    color: #d09d77;
-    border-bottom: solid 3px #5c2e0c;
-    margin-top: 0;
-    box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.25);
-}
-@media only screen and (min-width: 768px) {
-    body {
-        margin: 0 25px;
+
+    .container {
+        background-color: white;
     }
-}
-#logoNav {
-    margin-bottom: 20px;
-    margin-top: 5px;
-    margin-top: 5px;
-}
-#logoNav svg {
-    max-width: 360px;
-}
-#logoNav svg .logoBlue {
-    fill: #330dfb;
-}
-#logoNav svg .logoRed {
-    fill: #fc0e0f;
-}
-#content {
-    margin: 0;
-}
-#content #contact {
-    margin: 15px auto;
-    white-space: nowrap;
-    text-align: center;
-}
-#content #contact .phone {
-    font-size: 18px;
-    font-weight: bold;
-}
-#content #contact .bar {
-    border-bottom: solid 3px #d8b595;
-    margin: 15px 25px 15px 15px;
-}
-#content #contact .address {
-    padding-bottom: 0;
-}
-#content #contact .social a .fa.fa-facebook-official {
-    color: #3b5998;
-    font-size: 30px;
-}
-#content #contact .social a .fa.fa-yelp {
-    color: #fff;
-    background-color: #d32323;
-    font-size: 17px;
-    padding: 5px;
-    border-radius: 2px;
-    position: relative;
-    top: -5px;
-    left: 5px;
-}
-#content #hours table {
-    margin: 15px auto;
-}
-#content #hours table tr td:nth-child(1) {
-    font-weight: bold;
-    padding: 0 10px 2px 0;
-    text-align: right;
-}
-#content #services table {
-    margin: 15px auto;
-}
-#content #services table tr td {
-    vertical-align: top;
-}
-#content #services table tr td:nth-last-child(1) {
-    font-weight: bold;
-    padding: 2px 0 0 5px;
-}
-#content #services table tr .bar {
-    border-bottom: solid 3px #d8b595;
-    margin: 15px 25px 15px 15px;
-}
-#content #services table tr .subText {
-    font-weight: normal;
-    font-size: 12px;
-}
-#content .map #map {
-    margin-top: 0;
-    height: 350px;
-    margin-bottom: 50px;
-}
-#content .map h1 {
-    margin-bottom: 0;
+
+    table {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-family: "Arial Black", Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        width: 100%;
+        background-color: #0c233c;
+        padding: 5px 0 5px 9%;
+        border-radius: 5px 35px 3px 3px;
+        color: #d09d77;
+        border-bottom: solid 3px #5c2e0c;
+        margin-top: 0;
+        box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.25);
+    }
+
+    @media only screen and (min-width: 768px) {
+        body {
+            margin: 0 25px;
+        }
+    }
+
+    #logoNav {
+        margin-bottom: 20px;
+        margin-top: 5px;
+        margin-top: 5px;
+    }
+
+        #logoNav svg {
+            max-width: 360px;
+        }
+
+            #logoNav svg .logoBlue {
+                fill: #330dfb;
+            }
+
+            #logoNav svg .logoRed {
+                fill: #fc0e0f;
+            }
+
+    #content {
+        margin: 0;
+    }
+
+        #content #contact {
+            margin: 15px auto;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+            #content #contact .phone {
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            #content #contact .bar {
+                border-bottom: solid 3px #d8b595;
+                margin: 15px 25px 15px 15px;
+            }
+
+            #content #contact .address {
+                padding-bottom: 0;
+            }
+
+            #content #contact .social a .fa.fa-facebook-official {
+                color: #3b5998;
+                font-size: 30px;
+            }
+
+            #content #contact .social a .fa.fa-yelp {
+                color: #fff;
+                background-color: #d32323;
+                font-size: 17px;
+                padding: 5px;
+                border-radius: 2px;
+                position: relative;
+                top: -5px;
+                left: 5px;
+            }
+
+        #content #hours table {
+            margin: 15px auto;
+        }
+
+            #content #hours table tr td:nth-child(1) {
+                font-weight: bold;
+                padding: 0 10px 2px 0;
+                text-align: right;
+            }
+
+        #content #services table {
+            margin: 15px auto;
+        }
+
+            #content #services table tr td {
+                vertical-align: top;
+            }
+
+                #content #services table tr td:nth-last-child(1) {
+                    font-weight: bold;
+                    padding: 2px 0 0 5px;
+                }
+
+            #content #services table tr .bar {
+                border-bottom: solid 3px #d8b595;
+                margin: 15px 25px 15px 15px;
+            }
+
+            #content #services table tr .subText {
+                font-weight: normal;
+                font-size: 12px;
+            }
+
+        #content .map #map {
+            margin-top: 0;
+            height: 350px;
+            margin-bottom: 50px;
+        }
+
+        #content .map h1 {
+            margin-bottom: 0;
+        }
 }
